@@ -1,0 +1,4 @@
+id,target_codice,target_tipo,soggetto,ruolo,raci
+1,SVC-PORTALE,SERVIZIO,Mario Rossi,SERVICE_OWNER,A
+2,SVC-PORTALE,SERVIZIO,Laura Bianchi,TECNICO,R
+3,DB-01,ASSET,DPO Team,DPO,C

@@ -1,0 +1,4 @@
+codice,nome,categoria,criticita,sede,fornitore
+DB-01,Database Prod,DATI,CRITICA,Datacenter A,Acme Cloud
+VM-WEB-01,VM Web 01,HW,ALTA,Datacenter A,Acme Cloud
+FW-EDGE,Firewall Perimetrale,RETE,CRITICA,Datacenter A,Rete&Switch Srl

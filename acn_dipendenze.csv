@@ -1,0 +1,4 @@
+id,servizio_fonte,bersaglio_tipo,bersaglio_codice,tipo,criticita_impatti
+1,SVC-PORTALE,SERVIZIO,SVC-API,RUNTIME,ALTA
+2,SVC-API,ASSET,DB-01,DATI,CRITICA
+3,SVC-PORTALE,ASSET,FW-EDGE,RETE,MEDIA
