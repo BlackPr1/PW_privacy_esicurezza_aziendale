@@ -1,0 +1,11 @@
+profilo_nome;profilo_tipo;subcategory_codice;funzione;categoria;livello;motivazione;evidenza
+Profilo 2026;ATTUALE;ID.AM-1;IDENTIFY;ID.AM;2;Inventario asset presente ma processo non completamente formalizzato.;
+Profilo 2026;TARGET;ID.AM-1;IDENTIFY;ID.AM;4;Inventario completo, owner definito, riconciliazione periodica.;
+Profilo 2026;ATTUALE;PR.AC-1;PROTECT;PR.AC;1;IAM presente ma revisione privilegi discontinua.;
+Profilo 2026;TARGET;PR.AC-1;PROTECT;PR.AC;3;Revisione privilegi trimestrale + tracciamento approvazioni.;
+Profilo 2026;ATTUALE;PR.DS-1;PROTECT;PR.DS;2;Backup eseguiti, test restore non sempre tracciati.;
+Profilo 2026;TARGET;PR.DS-1;PROTECT;PR.DS;4;Test restore regolari con evidenze e KPI.;
+Profilo 2026;ATTUALE;DE.CM-1;DETECT;DE.CM;1;Monitoraggio parziale, copertura log incompleta.;
+Profilo 2026;TARGET;DE.CM-1;DETECT;DE.CM;3;Copertura log estesa e tuning alert.;
+Profilo 2026;ATTUALE;RS.RP-1;RESPOND;RS.RP;2;Playbook esistente, esercitazioni non regolari.;
+Profilo 2026;TARGET;RS.RP-1;RESPOND;RS.RP;4;Esercitazioni semestrali e miglioramento continuo.;

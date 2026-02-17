@@ -1,0 +1,6 @@
+subcategory_codice;funzione;categoria;livello_attuale;livello_target;gap
+ID.AM-1;IDENTIFY;ID.AM;2;4;2
+PR.AC-1;PROTECT;PR.AC;1;3;2
+PR.DS-1;PROTECT;PR.DS;2;4;2
+DE.CM-1;DETECT;DE.CM;1;3;2
+RS.RP-1;RESPOND;RS.RP;2;4;2

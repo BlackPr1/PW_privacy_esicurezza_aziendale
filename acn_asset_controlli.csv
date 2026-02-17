@@ -1,0 +1,4 @@
+asset_code;asset_nome;control_code;controllo_titolo;livello;assessed_at;subcategory_codice;funzione;categoria
+DB-01;Database Prod;CTRL-BKP-01;Backup e restore periodico;2;2026-02-17 20:45:40.786063+00;PR.DS-1;PROTECT;PR.DS
+VM-WEB-01;VM Web 01;CTRL-MON-01;Monitoraggio e alerting;1;2026-02-17 20:45:40.786063+00;DE.CM-1;DETECT;DE.CM
+FW-EDGE;Firewall Perimetrale;CTRL-MON-01;Monitoraggio e alerting;2;2026-02-17 20:45:40.786063+00;DE.CM-1;DETECT;DE.CM
