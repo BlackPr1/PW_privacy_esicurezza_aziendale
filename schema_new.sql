@@ -1,4 +1,7 @@
-
+CREATE DATABASE acn_registro
+  WITH OWNER luca
+       ENCODING 'UTF8'
+       TEMPLATE template0;
 
 -- (opzionale, solo per la sessione)
 SET client_encoding = 'UTF8';
