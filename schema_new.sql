@@ -1,17 +1,4 @@
--- =========================================================
--- ACN Registry (NIS2) + Profilo (Framework Nazionale) - PostgreSQL 16+
--- DDL + demo data
---
--- Uso consigliato:
---   1) Crea un database vuoto (es. acn_registro) e connettiti ad esso
---   2) Esegui questo script con psql o pgAdmin
---
--- Note:
--- - Script re-runnable: droppa/ricrea tipi, tabelle, viste e trigger.
--- - Mantiene le viste esistenti: acn_asset, acn_servizi, acn_responsabili, acn_dipendenze.
--- - Aggiunge tabelle per: subcategory (Framework), controlli, profili (attuale/target),
---   associazione asset→controlli e livelli di maturità numerici.
--- =========================================================
+
 
 -- (opzionale, solo per la sessione)
 SET client_encoding = 'UTF8';
