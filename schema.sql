@@ -745,7 +745,7 @@ JOIN profilo_subcategoria tgt ON tgt.subcategoria_id = sc.id
 JOIN profilo pt ON pt.id = tgt.profilo_id AND pt.tipo = 'TARGET'
 WHERE (tgt.livello > cur.livello);
 
--- Vista asset→controlli (utile per collegare controlli e subcategory agli asset)
+-- Vista asset→controlli 
 CREATE VIEW acn_asset_controlli AS
 SELECT a.asset_code,
        a.nome AS asset_nome,
@@ -815,7 +815,7 @@ VALUES
   (2, 'ASSET',    2, 'DATI',    'CRITICA'),
   (1, 'ASSET',    3, 'RETE',    'MEDIA');
 
--- --- Subcategory (esempi minimi, puoi estendere in base al framework adottato) ---
+-- --- Subcategory 
 INSERT INTO subcategoria (codice, funzione, categoria, descrizione, riferimento) VALUES
   ('ID.AM-1','IDENTIFY','ID.AM','Inventario dei dispositivi e dei sistemi (asset) mantenuto aggiornato.','Framework Nazionale - Asset Management'),
   ('ID.AM-2','IDENTIFY','ID.AM','Inventario delle applicazioni e dei servizi mantenuto aggiornato.','Framework Nazionale - Asset Management'),
