@@ -43,7 +43,7 @@ CREATE TYPE bersaglio_tipo  AS ENUM ('SERVIZIO','ASSET');
 CREATE TYPE tipo_dep        AS ENUM ('RUNTIME','DATI','RETE','TERZA_PARTE','ALTRO');
 CREATE TYPE raci_enum       AS ENUM ('R','A','C','I');
 
--- Profilo attuale / target (per il "Framework Nazionale" in stile CSF)
+-- Profilo attuale / target 
 CREATE TYPE profilo_tipo    AS ENUM ('ATTUALE','TARGET');
 
 -- Livelli numerici di maturità (0..4)
@@ -421,7 +421,7 @@ FOR EACH ROW EXECUTE FUNCTION scd2_resp_del();
 -- 6) Profilo (Framework Nazionale): subcategory + controlli + livelli
 -- =========================================================
 
--- Subcategory (funzione/categoria/subcategory) del framework
+-- Subcategory (funzione/categoria/subcategory) 
 CREATE TABLE subcategoria (
   id          BIGINT GENERATED ALWAYS AS IDENTITY PRIMARY KEY,
   codice      VARCHAR(32)  NOT NULL,         -- es: ID.AM-1
@@ -672,7 +672,7 @@ CREATE TRIGGER tr_ac_bd BEFORE DELETE ON asset_controllo
 FOR EACH ROW EXECUTE FUNCTION scd2_ac_del();
 
 -- =========================================================
--- 8) Viste "ACN" (come nello schema originale) + viste profilo/controlli
+-- 8) Viste "ACN" 
 -- =========================================================
 CREATE VIEW acn_asset AS
 SELECT a.asset_code   AS codice,
@@ -819,7 +819,7 @@ VALUES
   (2, 'ASSET',    2, 'DATI',    'CRITICA'),
   (1, 'ASSET',    3, 'RETE',    'MEDIA');
 
--- --- Subcategory (esempi minimi, puoi estendere in base al framework adottato) ---
+-- --- Subcategory 
 INSERT INTO subcategoria (codice, funzione, categoria, descrizione, riferimento) VALUES
   ('ID.AM-1','IDENTIFY','ID.AM','Inventario dei dispositivi e dei sistemi (asset) mantenuto aggiornato.','Framework Nazionale - Asset Management'),
   ('ID.AM-2','IDENTIFY','ID.AM','Inventario delle applicazioni e dei servizi mantenuto aggiornato.','Framework Nazionale - Asset Management'),
